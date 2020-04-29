@@ -26,14 +26,18 @@
   margin-bottom: 40px;
 }
 /* BLOCCO PERCHE */
-#why {
+#why  {
   text-align: center;
 }
-
+@media all and (max-widht: 768px) {
+  #why [class*="col-"] {
+    font-size: 10px;
+  }
+}
 #why .container img {
   background-color: #428bca;
   border-radius: 50%;
-  padding: 30px
+  padding: 30px;
 }
 
 /* COMMON */
